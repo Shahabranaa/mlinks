@@ -50,5 +50,6 @@ test:
 production:
   <<: *default
   database: mlinkDb_production
-  username: mlink
-  password: <%= ENV['SAMPLE_DATABASE_PASSWORD'] %>
+  username: root
+  password: 123456
+  # password: <%= ENV['SAMPLE_DATABASE_PASSWORD'] %>
