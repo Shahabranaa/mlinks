@@ -1,9 +1,9 @@
 # Change these
-server '172.31.46.118', port: 22, roles: [:web, :app, :db], primary: true
+server '18.188.113.184', port: 22, roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'git@github.com:Shahabranaa/mlinks.git'
 set :application,     'mlinks'
-set :user,            'root'
+set :user,            'deploy'
 set :puma_threads,    [4, 16]
 set :puma_workers,    0
 
